@@ -42,6 +42,7 @@ def ej1():
     elif numero_1 == 0:
         print('"numero_1" es 0')
 
+
     # Verifique si el numero_1 es mayor a 0 y menor a 100
     # Imprima en pantalla si se cumple o no la condición
 
@@ -52,12 +53,11 @@ def ej1():
     # es mayor a -2
     # Imprima en pantalla si se cumple o no la condición
 
-    if (numero_1 > 0 and numero_1 < 10 or numero_2 > -2):
+    if (numero_1 > 0 and numero_1 < (10) or numero_2 > (-2)):
         print('El {} y el {} pertenecen a los enteros'.format(numero_1,
                                                               numero_2) 
     else (numero_1 < 0):
-        print('Tanto {} y el {} pertenecen a los enteros negativos'.
-        format(numero_1, numero_2)
+        print('Tanto {} y el {} pertenecen a los enteros negativos'.format(numero_1, numero_2)
                                                                      
 
 def ej2():
