@@ -23,17 +23,17 @@ def ej1():
     Calcule la diferencia entre ellos e informe por pantalla
     si el resultado es positivo, negativo o cero.
     '''
-    numero_1 = {}
-    numero_2 = {}
+    print('ingrese dos numeros')
+    numero_1 = str(input())
+    numero_2 = str(input())
+    resta = (numero_1 - numero_2)
 
- if (numero_1 > 0) and (numero_2 > 0):
-        resta = (numero_1 - numero_2) > 0:
+    if (resta > 0):
         print('La resta entre {} y {} es {}'.format(numero_1, numero_2, positivo)
-  elif (numero_1 > 0) and (numero_2 > 0):
-        resta = (numero_1 - numero_2) < 0:
+    elif (resta < 0):
         print('La resta entre {} y {} es {}'.format(numero_1, numero_2, negativa)
-  elif (numero_1 > 0) and (numero_2 > 0):
-        resta = (numero_1 - numero_2) == 0:
+
+    else:
         print('La resta entre {} y {} es {}'.format(numero_1, numero_2, cero)
 
 def ej2():
@@ -45,24 +45,25 @@ def ej2():
     o impar.
     Para cada caso imprimir el resultado en pantalla.
   '''
-    numero_1 = {}
-    numero_2 = {}
-    numero_3 = {}
+    print('ingrese tres numeros enteros')
+    numero_1 = str(input())
+    numero_2 = str(input())
+    numero_3 = str(input())
 
     if (numero_1 % 2) == 0:
-        print('"numero_1" es par')
-    elif (numero_1 % 2) != 0:
-        print('"numero_1" es impar')
+        print(numero_1, 'es par')
+    else: 
+        print(numero_1, 'es impar')
 
     if (numero_2 % 2) == 0:
-        print('"numero_2" es par')
-    elif (numero_2 % 2) != 0:
-        print('"numero_2" es impar')
+        print(numero_2, 'es par')
+    else:
+        print(numero_2, 'es impar')
       
     if (numero_3 % 2) == 0:
-        print('"numero_3" es par')
-    elif (numero_3 % 2) != 0:
-        print('"numero_3" es impar')
+        print(numero_3, 'es par')
+    elif:
+        print(numero_3, 'es impar')
 
 def ej3():
     print('Ejercicios de práctica con números')
@@ -80,24 +81,24 @@ def ej3():
     Se debe efectuar el cálculo correcto según la operación ingresada por consola
     Imprimir en pantalla la operación realizada y el resultado
     '''
-numero_1 = {} , numero_2 = {}
-Suma(numero_1 + numero_2), Resta(numero_1 - numero_2), Multiplicación(numero_1 * numero_2), 
-División(numero_1 / numero_2), Potencia(numero_1 ** numero_2)
+print('ingrese dos numeros')
+numero_1 = str(input())
+numero_2 = str(input())
 
-if(numero_1 + numero_2) == 0
-    print(Suma)
+print('que operacion desea realizar?')
+print('ingrese: (+), (-), (*), (/), (**)')
+operacion = str(input())
 
-elif(numero_1 - numero_2) == 0
-    print(Resta)
-
-elif(numero_1 * numero_2) == 0
-    print(Multiplicación)
-
-elif(numero_1 / numero_2) == 0
-    print(División)
-
-elif(numero_1 ** numero_2) == 0
-    print(Potencia)
+if operacion = (+): suma = numero_1 + numero_2:
+    print('la suma entre', numero_1, 'y', numero_2, 'es:', suma)
+elif operacion = (-): resta = numero_1 - numero_2:
+    print('la resta entre', numero_1, 'y', numero_2, 'es:', resta)
+elif operacion = (*): multiplicacion = numero_1 * numero_2:
+    print('la multiplicacion entre', numero_1, 'y', numero_2, 'es:', multiplicacion)
+elif operacion = (/): division = numero_1 / numero_2:
+    print('la division entre', numero_1, 'y', numero_2, 'es:', division)
+elif potencia = (**): potencia = numero_1 ** numero_2:
+    print('la potencia entre', numero_1, 'y', numero_2, 'es:', potencia)
 
 
 def ej4():
@@ -115,19 +116,25 @@ def ej4():
     Si se ingresa "2" por consola se deben ordenar las 3 palabras por cantidad de letras
     e imprimir en pantalla de la mayor a la menor
   '''
+print('ingrese tres palabras cualesquiera')
 
-  texto_1 = str(input(''))
-  texto_2 = str(input(''))
-  texto_3 = str(input(''))
+palabra_1 = str(input())
+palabra_2 = str(input())
+palabra_3 = str(input())
+lista_palabras = (palabra_1, palabra_2, palabra_3)
+lista_caracteres = (len(palabra_1), len(palabra_2, len(palabra_3)))
 
-opcion_1 = (texto_1 > texto_2 > texto_3) or 
-opcion_2 = (len(texto_1 > texto_2 > texto_3) < 50)):
+print('como quisiera ordenarlas?')
+print('ingrese el numero: 1, para orden alfabetico')
+print('ingrese el numero: 2, para cantidad de letras')
+ingrese_opcion = str(input())
+orden_alfabetico == 1
+cantidad_letras == 2
 
-if (opcion_1):
-    print('{} {} y {} estan en orden alfabetico'.format(texto_1, texto_2, texto_3))
-
-elif (opcion_2):
-    print('{} {} y {} estan en orden alfanumerico'.format(texto_1, texto_2, texto_3))
+if orden_alfabetico == 1: lista_palabras.sort(reverse = True):
+    print('{} {} y {} estan en orden alfabetico decreciente'.format.lista_palabras.sort)
+elif cantidad_letras == 2: lista_caracteres.sort(reverse = True):
+    print('{} {} y {} estan por cantidad de letras'.format.lista_caracteres.sort)
 
 
 def ej5():
@@ -143,23 +150,26 @@ def ej5():
     En cada caso imprimir en pantalla el resultado
     '''
 
-    temperatura_1 = {}
-    temperatura_2 = {}
-    temperatura_3 = {}
-    listado = (temperatura_1 + temperatura_2 + temperatura_3)
+    print('ingrese tres valores de temperatura')
+    temperatura_1 = str(input())
+    temperatura_2 = str(input())
+    temperatura_3 = str(input())
+    listado = (temperatura_1, temperatura_2, temperatura_3)
+    suma = (temperatura_1 + temperatura_2 + temperatura_3)
+    listado_len = len(listado)
 
-    max([temperatura_1], [temperatura_2], [temperatura_3])
-    min([temperatura_1], [temperatura_2], [temperatura_3])
-    avg = (sum(listado)/len(listado)
+    maxima = max(listado)
+    minima = min(listado)
+    promedio = avg(suma / listado_len)
 
-    if(max):
-      print("'la temperatura maxima es' {}".format(max))
+    if maxima:
+      print("la temperatura maxima es: {}".format(maxima))
 
-    if(min):
-      print("'la temperatura minima es' {}".format(min))
+    if minima:
+      print("la temperatura minima es {}".format(minima))
 
-    if(avg):
-      print("'la temperatura promedio es' {}".formata(avg)
+    if promedio:
+      print("la temperatura promedio es {}".formata(promedio)
 
 if __name__ == '__main__':
     print("Ejercicios de práctica")

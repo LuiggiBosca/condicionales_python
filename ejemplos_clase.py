@@ -33,7 +33,7 @@ def numbers():
         print('"y =', y, '" es mayor a "x =', x, '"')
 
     # Realizar la misma operación negando la condición
-    if not(x > y):
+    if not(x > y):  # Se lee SI X no es mayor que Y.
         print('"x={}" no es mayor a "y={}"'.format(x, y))  # Debo también negar la respuesta
     else:
         print('"y={}" no es mayor a "x={}"'.format(y, x))  # Debo también negar la respuesta
